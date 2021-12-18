@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Damian's Resume</title>
+</head>
+<body>
+    <style>
+        .resume-grid {
+            display: grid;
+            grid-template-columns: 0.25fr 1.4fr;
+            grid-template-areas:
+                "header-left        header-right"
+                "pos-pwc-backend    tasks-pwc-backend"
+                "pos-pwc-sds        tasks-pwc-sds";
+        }
+
+        .position-info p {
+            color: grey;
+        }
+
+        ul {
+            list-style-type: square;
+        }
+
+        @media (max-width: 800px) {
+            .resume-grid {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-areas:
+                    "header-left"
+                    "header-right"
+                    "pos-pwc-backend"
+                    "tasks-pwc-backend"
+                    "pos-pwc-sds"
+                    "tasks-pwc-sds";
+                }
+        }
+    </style>
+
+    <div class="resume-grid">
+        <div class="header-left">
+            <div class="phone">
+                <p>Phone: 509777939</p>
+            </div>
+            <div class="email">
+                <p>Email: damian.j.skrzypiec@gmail.com</p>
+            </div>
+        </div>
+        <div class="header-right">
+            <h2>Damian Skrzypiec</h2>
+        </div>
+
+        <div class="position-info pos-pwc-backend">
+            <h3>Senior Backend Developer (C#)</h3>
+            <p>PwC</p>
+            <p>Data Tools</p>
+        </div>
+        <div class="tasks-info tasks-pwc-backend">
+            <ul>
+                <li>Maintenance and development of IFRS 9 application</li>
+                <li>Another task</li>
+                <li>Complex tasks like
+                    <ul>
+                        <li>Hard task 1</li>
+                        <li>Hard task 2</li>
+                    </ul>
+            </ul>
+        </div>
+
+        <div class="position-info pos-pwc-sds">
+            <h3>Senior Data Engineer</h3>
+            <p>PwC</p>
+            <p>Financial Risk Management</p>
+        </div>
+        <div class="tasks-info tasks-pwc-sds">
+            <ul>
+                <li>Applications for credit risk</li>
+                <li>Another task</li>
+                <li>Complex tasks like
+                    <ul>
+                        <li>Hard task 1</li>
+                        <li>Hard task 2</li>
+                    </ul>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

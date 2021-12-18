@@ -7,35 +7,76 @@
 </head>
 <body>
     <style>
-        .resume-grid {
-            display: grid;
-            grid-template-columns: 0.25fr 1.4fr;
-            grid-template-areas:
-                "header-left        header-right"
-                "pos-pwc-backend    tasks-pwc-backend"
-                "pos-pwc-sds        tasks-pwc-sds";
-        }
-
-        .position-info p {
-            color: grey;
-        }
-
-        ul {
-            list-style-type: square;
-        }
-
-        @media (max-width: 800px) {
+        @media (min-width: 1000px) {
             .resume-grid {
+                margin-top: 50px;
+                margin-left: 200px;
                 display: grid;
-                grid-template-columns: 1fr;
-                grid-template-areas:
-                    "header-left"
-                    "header-right"
-                    "pos-pwc-backend"
-                    "tasks-pwc-backend"
-                    "pos-pwc-sds"
-                    "tasks-pwc-sds";
-                }
+                grid-template-columns: 300px 800px;
+            }
+
+            .header-left {
+                grid-row: 1 / 1;
+                grid-column: 1 / 1;
+            }
+
+            .header-right {
+                grid-row: 1 / 1;
+                grid-column: 2 / 2;
+            }
+
+            .work-exp {
+                grid-row: 2 / 2;
+                grid-column: 1 / span 2;
+            }
+
+            .pos-pwc-backend {
+                grid-row: 3 / 3;
+                grid-column: 1 / 1;
+            }
+
+            .tasks-pwc-backend {
+                grid-row: 3 / 3;
+                grid-column: 2 / 2;
+            }
+
+            .pos-pwc-sds {
+                grid-row: 4 / 4;
+                grid-column: 1 / 1;
+            }
+
+            .tasks-pwc-sds {
+                grid-row: 4 / 4;
+                grid-column: 2 / 2;
+            }
+
+            .skills {
+                grid-row: 5 / 5;
+                grid-column: 1 / span 2;
+            }
+
+            .header-right h2 {
+                text-align: center;
+            }
+
+            .section p {
+                padding-left: 20%;
+                vertical-align: middle;
+                color: blue;
+                font-weight: bold;
+            }
+
+            .position-info p {
+                color: grey;
+            }
+
+            .tasks-info ul {
+                padding-top: 10px;
+            }
+
+            ul {
+                list-style-type: square;
+            }
         }
     </style>
 
@@ -50,6 +91,10 @@
         </div>
         <div class="header-right">
             <h2>Damian Skrzypiec</h2>
+        </div>
+
+        <div class="section work-exp">
+            <p>WORK EXPERIENCE</p>
         </div>
 
         <div class="position-info pos-pwc-backend">
@@ -84,6 +129,10 @@
                         <li>Hard task 2</li>
                     </ul>
             </ul>
+        </div>
+
+        <div class="section skills">
+            <p>SKILLS</p>
         </div>
     </div>
 </body>

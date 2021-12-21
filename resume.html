@@ -8,7 +8,11 @@
 <body>
     <style>
         ul {
-            list-style-type: square;
+            list-style-type: circle;
+        }
+
+        .tech {
+            font-family: monospace, monospace;
         }
 
         .header-left .email {
@@ -89,6 +93,15 @@
         @media (min-width: 1000px) {
             .tasks-info .top-level-ul {
                 padding-top: 10px;
+                list-style-type: square;
+            }
+
+            .tasks-info:hover {
+                background-color: #F7F7E4;
+            }
+
+            .skills-list:hover {
+                background-color: #F7F7E4;
             }
 
             .resume-grid {
@@ -260,12 +273,14 @@
             <ul class="top-level-ul">
                 <li>Maintenance and development of an IFRS 9 application for an international bank</li>
                     <ul>
-                        <li>implementation of new features on the backend (C# and SQL Server)</li>
+                        <li>implementation of new features on the backend
+                            (<span class="tech">C#</span> and <span class="tech">SQL Server</span>)</li>
                         <li>improvement of the key processes of the application</li>
                         <li>development of end-to-end tests</li>
-                        <li>development of CI/CD processes (TeamCity and Octopus)</li>
+                        <li>development of CI/CD processes
+                            (<span class="tech">TeamCity</span> and <span class="tech">Octopus</span>)</li>
                     </ul>
-                <li>Implementation of .NET Core backend prototypes for web apps</li>
+                <li>Implementation of <span class="tech">.NET Core</span> backend prototypes for web apps</li>
                 <li>Guiding and performing code reviews for junior devs</li>
             </ul>
         </div>
@@ -280,18 +295,18 @@
             <ul class="top-level-ul">
                 <li>Design and implementation of an application for credit risk models validation</li>
                     <ul>
-                        <li>designing the application database schema (SQL Server)</li>
-                        <li>backend implementation (HTTP server in Go)</li>
-                        <li>communication with analytic layer (R) and the frontend (Angular)</li>
+                        <li>designing the application database schema (<span class="tech">SQL Server</span>)</li>
+                        <li>backend implementation (<span class="tech">HTTP</span> server in <span class="tech">Go</span>)</li>
+                        <li>communication with analytic layer (<span class="tech">R</span>) and the frontend (</span>Angular</span>)</li>
                     </ul>
                 <li>Design and implementation of an IFRS 9 application for a factoring company</li>
                     <ul>
                         <li>managing a four-people team</li>
-                        <li>designing the database (SQLite)</li>
+                        <li>designing the database (<span class="tech">SQLite</span>)</li>
                         <li>implementation of estimation, calculation and reporting layer</li>
                     </ul>
-                <li>Design and implementation of tools (R) for building behavioral models in market risk</li>
-                <li>Internal workshops - Go language (8h)</li>
+                <li>Design and implementation of tools (<span class="tech">R</span>) for building behavioral models in market risk</li>
+                <li>Internal workshops - <span class="tech">Go</span> language (8h)</li>
             </ul>
         </div>
 
@@ -307,12 +322,13 @@
                 <li>Implementation of automation estimation of parameters for credit risk models</li>
                 <li>Implementation of calculation stress tests for expected credit loss</li>
                     <ul>
-                        <li>designing the database schema (SQL Server)</li>
-                        <li>high performance calculation engine in Go</li>
-                        <li>communication with analytical layer (R)</li>
+                        <li>designing the database schema (<span class="tech">SQL Server</span>)</li>
+                        <li>high performance calculation engine in <span class="tech">Go</span></li>
+                        <li>communication with analytical layer (<span class="tech">R</span>)</li>
                     </ul>
-                <li>Testing (unit and end-to-end) monolith IFRS 9(C#) application</li>
-                <li>Internal workshops - git (2h), R (20h) and an introduction to HTTP protocol (2h)</li>
+                <li>Testing (unit and end-to-end) monolith IFRS 9 (<span class="tech">C#</span>) application</li>
+                <li>Internal workshops - <span class="tech">git</span> (2h), <span class="tech">R</span> (20h)
+                    and an introduction to <span class="tech">HTTP</span> protocol (2h)</li>
             </ul>
         </div>
 
@@ -326,8 +342,8 @@
             <ul class="top-level-ul">
                 <li>Building and implementing models for credit risk</li>
                 <li>Use machine learning to improve parts of credit risk models</li>
-                <li>Algorithms performance optimization (C# and T-SQL)</li>
-                <li>Data analysis, reporting and validations (R)</li>
+                <li>Algorithms performance optimization (<span class="tech">C#</span> and <span class="tech">T-SQL</span>)</li>
+                <li>Data analysis, reporting and validations (<span class="tech">R</span>)</li>
             </ul>
         </div>
 
@@ -339,7 +355,7 @@
         </div>
         <div class="tasks-info tasks-orange-jc">
             <ul class="top-level-ul">
-                <li>Developing a prototype of real-time application using geodata of clients (R, shiny)</li>
+                <li>Developing a prototype of real-time application using geodata of clients (<span class="tech">R, shiny</span>)</li>
                 <li>Developing an "application" in VBA for periodical reports with data visualization and stats</li>
             </ul>
         </div>
@@ -380,7 +396,7 @@
 
         <div class="mid-skills-list skills-list">
             <ul>
-                <li>Python, airflow, git, HTTP, *NIX tools</li>
+                <li>Python, Apache Airflow, git, HTTP, *NIX tools</li>
             </ul>
         </div>
 

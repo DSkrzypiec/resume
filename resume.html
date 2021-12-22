@@ -63,6 +63,12 @@
             top: -25px;
         }
 
+        .conference-info .place {
+            position: relative;
+            top: -15px;
+            color: #6F6967;
+        }
+
         .tasks-info {
             font-family: Georgia, serif;
         }
@@ -91,6 +97,10 @@
         }
 
         @media (min-width: 1000px) {
+            .section {
+                margin-top: 15px;
+            }
+
             .tasks-info .top-level-ul {
                 padding-top: 10px;
                 list-style-type: square;
@@ -104,9 +114,13 @@
                 background-color: #F7F7E4;
             }
 
+            .conf-talk-info:hover {
+                background-color: #F7F7E4;
+            }
+
             .resume-grid {
                 margin-top: 50px;
-                margin-left: 75px;
+                margin-left: 50px;
                 display: grid;
                 grid-template-columns: 300px 800px;
             }
@@ -126,119 +140,150 @@
                 grid-column: 1 / span 2;
             }
 
-            .pos-pwc-backend {
+            .pos-ap-sde {
                 grid-row: 3 / 3;
+                grid-column: 1 / 1;
+            }
+
+            .tasks-ap-sde {
+                grid-row: 3 / 3;
+                grid-column: 2 / 2;
+            }
+
+            .pos-pwc-backend {
+                grid-row: 4 / 4;
                 grid-column: 1 / 1;
             }
 
             .tasks-pwc-backend {
-                grid-row: 3 / 3;
+                grid-row: 4 / 4;
                 grid-column: 2 / 2;
             }
 
             .pos-pwc-sds {
-                grid-row: 4 / 4;
+                grid-row: 5 / 5;
                 grid-column: 1 / 1;
             }
 
             .tasks-pwc-sds {
-                grid-row: 4 / 4;
+                grid-row: 5 / 5;
                 grid-column: 2 / 2;
             }
 
             .pos-pwc-sc {
-                grid-row: 5 / 5;
+                grid-row: 6 / 6;
                 grid-column: 1 / 1;
             }
 
             .tasks-pwc-sc {
-                grid-row: 5 / 5;
+                grid-row: 6 / 6;
                 grid-column: 2 / 2;
             }
 
             .pos-pwc-cons {
-                grid-row: 6 / 6;
+                grid-row: 7 / 7;
                 grid-column: 1 / 1;
             }
 
             .tasks-pwc-cons {
-                grid-row: 6 / 6;
+                grid-row: 7 / 7;
                 grid-column: 2 / 2;
             }
 
             .pos-orange-jc {
-                grid-row: 7 / 7;
+                grid-row: 8 / 8;
                 grid-column: 1 / 1;
             }
 
             .tasks-orange-jc {
-                grid-row: 7 / 7;
+                grid-row: 8 / 8;
                 grid-column: 2 / 2;
             }
 
             .pos-orange-intern {
-                grid-row: 8 / 8;
+                grid-row: 9 / 9;
                 grid-column: 1 / 1;
             }
 
             .tasks-orange-intern {
-                grid-row: 8 / 8;
+                grid-row: 9 / 9;
                 grid-column: 2 / 2;
             }
 
             .education {
-                grid-row: 9 / 9;
+                grid-row: 10 / 10;
                 grid-column: 1 / span 2;
             }
 
             .pos-education {
-                grid-row: 10 / 10;
+                grid-row: 11 / 11;
                 grid-column: 1 / 1;
             }
 
             .tasks-education {
-                grid-row: 10 / 10;
+                grid-row: 11 / 11;
                 grid-column: 2 / 2;
             }
 
             .skills {
-                grid-row: 11 / 11;
+                grid-row: 12 / 12;
                 grid-column: 1 / span 2;
             }
 
             .adv-skills {
-                grid-row: 12 / 12;
+                grid-row: 13 / 13;
                 grid-column: 1 / 1;
             }
 
             .adv-skills-list {
-                grid-row: 12 / 12;
+                grid-row: 13 / 13;
                 grid-column: 2 / 2;
             }
 
             .mid-skills {
-                grid-row: 13 / 13;
+                grid-row: 14 / 14;
                 grid-column: 1 / 1;
             }
 
             .mid-skills-list {
-                grid-row: 13 / 13;
+                grid-row: 14 / 14;
                 grid-column: 2 / 2;
             }
 
             .hobby-skills {
-                grid-row: 14 / 14;
+                grid-row: 15 / 15;
                 grid-column: 1 / 1;
             }
 
             .hobby-skills-list {
-                grid-row: 14 / 14;
+                grid-row: 15 / 15;
                 grid-column: 2 / 2;
             }
+
             .conferences {
-                grid-row: 15 / 15;
+                grid-row: 16 / 16;
                 grid-column: 1 / span 2;
 
+            }
+
+            .wdi-2019 {
+                grid-row: 17 / 17;
+                grid-column: 1 / 1;
+            }
+
+            .wdi-2019-talk {
+                grid-row: 17 / 17;
+                grid-column: 2 / 2;
+            }
+
+            .erka {
+                grid-row: 18 / 18;
+                grid-column: 1 / 1;
+            }
+
+            .erka-talk {
+                grid-row: 18 / 18;
+                grid-column: 2 / 2;
             }
         }
     </style>
@@ -261,6 +306,20 @@
 
         <div class="section work-exp">
             <p><span>WORK EXPERIENCE</span></p>
+        </div>
+
+        <div class="position-info pos-ap-sde">
+            <div class="title"><h3>Senior Data Engineer (C#)</h3></div>
+            <div class="firm"><p>Allegro Pay</p></div>
+            <div class="team"><p>DEA</p></div>
+            <div class="date-range"><p>08.2021 - <span class="tech">$current_date</span></p></div>
+        </div>
+        <div class="tasks-info tasks-ap-sde">
+            <ul class="top-level-ul">
+                <li>Snowflake</li>
+                <li>Apache Airflow</li>
+                <li>Data pipelines design and maintenance</li>
+            </ul>
         </div>
 
         <div class="position-info pos-pwc-backend">
@@ -411,6 +470,26 @@
         </div>
         <div class="section conferences">
             <p><span>CONFERENCES</span></p>
+        </div>
+
+        <div class="conference-info wdi-2019">
+            <div class="name"><h3>WDI 2019</h3></div>
+            <div class="place"><p>03.2019, Warsaw</p></div>
+        </div>
+        <div class="conf-talk-info wdi-2019-talk">
+            <ul class="top-level-ul">
+                <li>Presentation "Functional programming in R" - <span class="tech">github.com/DSkrzypiec/WDI2019FP</span></li>
+            </ul>
+        </div>
+
+        <div class="conference-info erka">
+            <div class="name"><h3>eRKa</h3></div>
+            <div class="place"><p>03.2017, Cracov</p></div>
+        </div>
+        <div class="conf-talk-info erka-talk">
+            <ul class="top-level-ul">
+                <li>Presentation "Reporting automation in R" - <span class="tech">github.com/DSkrzypiec/ReportGenerator</span></li>
+            </ul>
         </div>
     </div>
 </body>

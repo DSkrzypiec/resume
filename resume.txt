@@ -1,0 +1,160 @@
+┌──────────────────────────────────────────────────────────────────────────────┐
+│+48 509-777-939                       ┌─────────────────────────────┐         │
+│info@dskrzypiec.dev                   │      Damian Skrzypiec       │         │
+│dskrzypiec.dev                        └─────────────────────────────┘         │
+│                                                                              │
+│                                                                              │
+│   ───────────────────────  WORK EXPERIENCE  ──────────────────────────────   │
+│                                                                              │
+│   ▶ (08.2022-01.2023) Senior Data Engineer - TCL Research Europe             │
+│                                                                              │
+│      ■ Developing Overseas Big Data Platform for TCL                         │
+│        ○ Development and maintenance of data pipelines - Spark with AWS Glue │
+│        ○ Development and maintenance of AWS infra using AWS CDK              │
+│      ■ Performing infrastructure code migration from AWS CDK v1 into v2      │
+│      ■ Maintenance of tracking platform which handles events in real-time    │
+│        using data mesh-like approach                                         │
+│      ■ Development of cross-clouds ETLs between AWS and Alibaba Cloud        │
+│      ■ Development of end-to-end tests for Spark (Scala) transformation      │
+│      ■ Development and maintenance of AWS Lambda in Python                   │
+│                                                                              │
+│                                                                              │
+│   ▶ (01.2022-10.2022) Senior Backend Developer - Territory Read (part time)  │
+│                                                                              │
+│       ■ Backend implementation of web app in Go                              │
+│         ○ Implementation of user authentication and authorization            │
+│         ○ Implementation of logging using OAuth2                             │
+│       ■ Design and implementation of ETL for integration third-party database│
+│         serialization                                                        │
+│         ○ Loading from AWS S3 into AWS Aurora using Go                       │
+│       ■ Implementation of a search engine using combination of internal      │
+│         database and external HTTP API                                       │
+│       ■ Implementation of communication between backend and frontend using   │
+│         WebSocket protocol                                                   │
+│                                                                              │
+│                                                                              │
+│   ▶ (08.2021-07.2022) Senior Data Engineer (C#) - Allegro Pay                │
+│                                                                              │
+│      ■ Maintenance of the core analytical databases (Snowflake)              │
+│      ■ Design and implementation of data pipelines (Apache Airflow)          │
+│      ■ Design and implementation of the process for loan evaluation          │
+│        ○ Set up Google Composer infrastructure                               │
+│        ○ Design data model schema                                            │
+│        ○ Implementation of Apache Airflow DAGs for the process               │
+│        ○ Design reporting and communication with other processes             │
+│      ■ Consult and review of C# services regarding data models and Snowflake │
+│      ■ Implementation of analytical data model based on technical events     │
+│        using Snowflake and dbt                                               │
+│      ■ Integration all historical data on delivery addresses from Cassandra  │
+│        and MongoDB into Snowflake using Go                                   │
+│                                                                              │
+│                                                                              │
+│   ▶ (05.2020-07.2021) Senior Backend Developer (C#) - PwC (Data Tools)       │
+│                                                                              │
+│      ■ Maintenance and development of an IFRS 9 application for an           │
+│        international bank                                                    │
+│        ○ Implementation of new backend features - C# and SQL Server          │
+│        ○ Improvement of key processes of the application                     │
+│        ○ Development of end-to-end tests                                     │
+│        ○ Development of CI/CD processes - TeamCity and Octopus               │
+│      ■ Implementation of .NET Core backend prototypes for web apps           │
+│      ■ Guiding and performing code reviews for junior developers             │
+│                                                                              │
+│                                                                              │
+│   ▶ (10.2019-04.2020) Senior Data Scientist - PwC (Financial Risk Mgmt)      │
+│                                                                              │
+│      ■ Design and implementation of an application for credit risk models    │
+│        validation                                                            │
+│        ○ Designing the application database schema (SQL Server)              │
+│        ○ Backend implementation (HTTP server in Go)                          │
+│        ○ Communication with analytic layer (R) and the frontend (Angular)    │
+│      ■ Design and implementation of an IFRS 9 application for a factoring    │
+│        company                                                               │
+│        ○ Managing a team of four                                             │
+│        ○ Designing the database (SQLite)                                     │
+│        ○ Implementation of estimation, calculation and reporting layer       │
+│      ■ Design and implementation of tools (R) for building behavioral models │
+│        in market risk                                                        │
+│      ■ Internal workshops - Go language (8h)                                 │
+│                                                                              │
+│                                                                              │
+│   ▶ (10.2017-09.2019) Senior Consultant - PwC (Financial Risk Mgmt)          │
+│                                                                              │
+│      ■ Designing and leading development of internal tools for modelling     │
+│      ■ Implementation of automation estimation of parameters for credit      │
+│        risk models                                                           │
+│      ■ Implementation of calculation stress tests for expected credit loss   │
+│        ○ Designing the database schema (SQL Server)                          │
+│        ○ High performance calculation engine in Go                           │
+│        ○ Communication with analytical layer (R)                             │
+│      ■ Testing (unit and end-to-end) monolith IFRS 9 (C#) application        │
+│      ■ Internal workshops                                                    │
+│        ○ git - 2h                                                            │
+│        ○ R - 20h                                                             │
+│        ○ Introduction to HTTP - 2h                                           │
+│                                                                              │
+│                                                                              │
+│   ▶ (02.2015-09.2017) Consultant - PwC (Financial Risk Mgmt)                 │
+│                                                                              │
+│      ■ Building and implementing models for credit risk                      │
+│      ■ Use machine learning to improve parts of credit risk models           │
+│      ■ Algorithms performance optimization (C# and T-SQL)                    │
+│      ■ Data analysis, reporting and validations (R)                          │
+│                                                                              │
+│                                                                              │
+│   ▶ (05.2014-01.2015) Intern & Junior Analyst - Orange (BI)                  │
+│                                                                              │
+│      ■ Developing a prototype of real-time application using geodata in R    │
+│      ■ Developing an app in VBA for periodical reports with data viz and stat│
+│                                                                              │
+│                                                                              │
+│   ──────────────────────────  EDUCATION  ─────────────────────────────────   │
+│                                                                              │
+│   ▶ (2011-2017) Mathematics - Warsaw University                              │
+│                                                                              │
+│    ■ Bachelor degree - probability theory (https://dskrzypiec.dev/fbm.pdf)   │
+│    ■ Masters degree - statistics (https://dskrzypiec.dev/struct-learning.pdf)│
+│                                                                              │
+│                                                                              │
+│   ───────────────────────────  SKILLS  ───────────────────────────────────   │
+│                                                                              │
+│   ▶ Advanced                                                                 │
+│                                                                              │
+│      ■ Go, C#, Python, R, Vim, SQL SErver, SQLite, Snowflake                 │
+│                                                                              │
+│                                                                              │
+│   ▶ Intermediate                                                             │
+│                                                                              │
+│      ■ Scala, Apache Airflow, git, HTTP, *NIX tools, AWS CDK                 │
+│        AWS data stack (S3, Step Functions, Glue, EC2, Lambda)                │
+│                                                                              │
+│                                                                              │
+│   ▶ Hobby                                                                    │
+│                                                                              │
+│      ■ C++, F#, machine learning                                             │
+│                                                                              │
+│                                                                              │
+│  ──────────────────────────  CONFERENCES  ─────────────────────────────────  │
+│                                                                              │
+│   ▶ (03.2019, Warsaw) WDI 2019                                               │
+│                                                                              │
+│      ■ Presentation "Functional programming in R"                            │
+│        https://github.com/DSkrzypiec/WDI2019FP                               │
+│                                                                              │
+│   ▶ (03.2017, Cracov) eRKa                                                   │
+│                                                                              │
+│      ■ Presentation "Reporting automation in R"                              │
+│        https://github.com/DSkrzypiec/ReportGenerator                         │
+│                                                                              │
+│                                                                              │
+│  ────────────────────────────  OTHER  ─────────────────────────────────────  │
+│                                                                              │
+│   ▶ Certificates                                                             │
+│                                                                              │
+│     ■ AWS Certified Solutions Architect - Associate (7EV5SPJCSNF1Q8WT)       │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│ [web version at: https://dskrzypiec.dev/resume.html)                         │
+│                                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘

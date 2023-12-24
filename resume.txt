@@ -6,6 +6,22 @@
 │                                                                              │
 │   ───────────────────────  WORK EXPERIENCE  ──────────────────────────────   │
 │                                                                              │
+│   ▶ (02.2023-$current_date) Software Engineer - Point72                      │
+│                                                                              │
+│      ■ Developing new distributed platform for computation and analytics     │
+│        ○ Developing and maintaining platform infrastructure based on Ray and │
+│           AWS EKS                                                            │
+│        ○ Developing core Python library which is a gateway to the platform   │
+│        ○ Implementing Ray actors life cycle management                       │
+│        ○ Working on performance Improvement of the platform                  │
+│      ■ Introducing Apache Airflow as a new scheduler using MWAA on AWS       │
+│        ○ Setup MWAA infrastructure using Terraform                           │
+│        ○ Setup integration with other internal systems - SQL Server and Ray  │
+│           cluster on AWS EKS                                                 │
+│        ○ Implement customized local setup of Airflow using Docker            │
+│        ○ Implement ETL processes preparing data for the new platform         │
+│        ○ Design the release process and CI/CD pipelines                      │
+│                                                                              │
 │   ▶ (08.2022-01.2023) Senior Data Engineer - TCL Research Europe             │
 │                                                                              │
 │      ■ Developing Overseas Big Data Platform for TCL                         │
@@ -120,12 +136,12 @@
 │                                                                              │
 │   ▶ Advanced                                                                 │
 │                                                                              │
-│      ■ Go, C#, Python, R, Vim, SQL SErver, SQLite, Snowflake                 │
+│      ■ Go, C#, Python, R, Vim, SQL SErver, SQLite, Snowflake, Airflow        │
 │                                                                              │
 │                                                                              │
 │   ▶ Intermediate                                                             │
 │                                                                              │
-│      ■ Scala, Apache Airflow, git, HTTP, *NIX tools, AWS CDK                 │
+│      ■ Scala, git, HTTP, *NIX tools, AWS CDK                                 │
 │        AWS data stack (S3, Step Functions, Glue, EC2, Lambda)                │
 │                                                                              │
 │                                                                              │
@@ -154,7 +170,7 @@
 │     ■ AWS Certified Solutions Architect - Associate (7EV5SPJCSNF1Q8WT)       │
 │                                                                              │
 │                                                                              │
-│                                                                              │
-│ [web version at: https://dskrzypiec.dev/resume.html)                         │
+│ [web version at: https://dskrzypiec.dev/resume.html]                         │
+│ [Updated at: 2023-12-23 21:13 CET]                                           │
 │                                                                              │
 └──────────────────────────────────────────────────────────────────────────────┘
